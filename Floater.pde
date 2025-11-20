@@ -72,5 +72,36 @@ class Floater //Do NOT modify the Floater class! Make changes in the Spaceship c
     //"unrotate" and "untranslate" in reverse order
     rotate(-1*dRadians);
     translate(-1*(float)myCenterX, -1*(float)myCenterY);
-  }   
+  }
+  public double getmyXspeed(){
+   return myXspeed;
+   }
+   public void setmyXspeed(double n){
+   myXspeed = n;
+   }
+   
+   public double getmyYspeed(){
+   return myYspeed;
+   }
+   public void setmyYspeed(double n){
+   myYspeed = n;
+   }
+   public void  setPointDirection(double n){
+   myPointDirection = n;
+   }
+   public double getPointDirection(){
+   return myPointDirection;
+      }
+   public void setmyCenterX(double n){
+   myCenterX = n;
+   }
+   public void setmyCenterY(double n){
+   myCenterY = n;
+   }
+    public double getmyCenterX(){
+   return myCenterX;
+   }
+   public double getmyCenterY(){
+   return myCenterY;
+   }
 } 
