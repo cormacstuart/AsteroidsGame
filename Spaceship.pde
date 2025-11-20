@@ -17,19 +17,6 @@ class Spaceship extends Floater
    myPointDirection = 0;
    myColor = 255;
    }
-   public double getmyXspeed(){
-   return myXspeed;
-   }
-   public void setmyXspeed(double n){
-   myXspeed = n;
-   }
-   
-   public double getmyYspeed(){
-   return myYspeed;
-   }
-   public void setmyYspeed(double n){
-   myYspeed = n;
-   }
    
    
 }
