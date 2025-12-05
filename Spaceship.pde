@@ -18,5 +18,11 @@ class Spaceship extends Floater
    myColor = 255;
    }
    
-   
+   public void hyperspace(){
+     setmyXspeed(0);
+     setmyYspeed(0);
+     setPointDirection(Math.random()*100*Math.PI);
+     setmyCenterX(100+Math.random()*300);
+     setmyCenterY(100+Math.random()*300);
+  }
 }
