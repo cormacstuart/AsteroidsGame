@@ -17,4 +17,5 @@ class Star //note that this class does NOT extend Floater
   public double getY(){
   return myY;
 }
+  
 }
